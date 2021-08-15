@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Validation</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<!--login validation-->
+    <form action="" method="" onsubmit="return false;">
+        <login>Register/Login</login>
+        <img src="./images//user-circle-solid.svg" style="height: 100px; width: 100px; padding: 10px 0px 0px 105px;">
+        <div>
+            <label for="username">Username</label>
+            <input type="text" name="" id="username" style="margin-left: 60px;" placeholder="username">
+            <p><small id="username_errorMsg"></small></p>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="text" name="" id="email" style="margin-left: 90px;" placeholder="Email">
+            <p><small id="email_errorMsg"></small></p>
+        </div>
+        <div>
+            <label for="pw1">Create Password</label>
+            <input type="password" name="" id="pw1" style="margin-left: 10px;" placeholder="password">
+            <p><small id="pw1_errorMsg"></small></p>
+            <p><small id="message1"></small></p>
+            <p><small id="message1"></small></p>
+        </div>
+        <div>
+            <label for="pw2">Confirm Password</label>
+            <input type="password" name="" id="pw2" placeholder="confirm password">
+            <p><small id="pw2_errorMsg"></small></p>
+            <p><small id="message2"></small></p>
+        </div>
+        <div id="wthree-text">
+                <input type="checkbox" id="checkbox">
+                <label id="anim">I Agree To The Terms & Conditions</label>
+                <p><small id="checkbox_errormsg"></small></p>
+            <div id="clear"> </div>
+        </div>
+        <button id="loginBtn">Submit</button>
+        <p style="margin-left: 30px; color: white;">Have an Account? <a href="#" style="color: skyblue;"> Login Now!</a></p>
+    </form>
+    <script src="./script.js"></script>
+</body>
+</html>
